@@ -1,0 +1,83 @@
+.content {
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.content-header {
+  margin-top: 20px;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 30px 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.user-icon {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.content-body {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.content-title {
+  font-size: 30px;
+  padding: 10px;
+  padding-left: 34px;
+  text-align: center;
+}
+.form-edit-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+#edit-product {
+  width: 800px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+#edit-product label {
+  font-size: 20px;
+}
+
+#edit-product input {
+  outline: none;
+  padding: 5px 10px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+#edit-product select {
+  width: 150px;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+#edit-product .upload-file {
+  width: fit-content;
+}
+
+.btn {
+  margin: 10px;
+  display: flex;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  min-width: 200px;
+  border-radius: 5px;
+  margin: 0 auto;
+  cursor: pointer;
+}

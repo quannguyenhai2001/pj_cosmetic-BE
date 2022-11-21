@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product management</title>
+    <link rel="stylesheet" href="../themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="grid__row">
+        <div class="grid__column-1-5">
+            <div class="sidebar">
+
+            </div>
+        </div>
+        <div class="content grid__column-4-5">
+            <div class="content-header">
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <img src="../avatar.jpg" alt="" class="avatar">
+                <p class="user">Admin</p>
+            </div>
+            <div class="content__body">
+                <div class="content-title">
+                    <p>Thêm sản phẩm</p>
+                </div>
+                <div class="form-add-product">
+                    <form id="Add-product">
+                        <label for="namet">Tên</label> <br>
+                        <input type="text" id="name" name="name" placeholder="Nhập tên sản phẩm"> <br>
+                        <label for="price">Giá</label> <br>
+                        <input type="text" id="price" name="price" placeholder="Nhập giá sản phẩm"> <br>
+                        <label for="promotion">Khuyến mãi</label> <br>
+                        <input type="text" id="promotion" name="promotion" placeholder="Nhập khuyến mãi"> <br>
+                        <label for="description">Mô tả</label> <br>
+                        <textarea name="description" id="description" cols="100%" rows="10"></textarea> <br>
+                        <label for="size">Kích cỡ</label>
+                        <select name="size" id="size">
+                            <option value="Small">Small</option>
+                            <option value="Big">Big</option>
+                        </select><br>
+                        <label for="amount">Số lượng</label> <br>
+                        <input type="text" id="amount" name="amount" placeholder="Nhập số lượng sản phẩm"> <br>
+                        <label for="image">Ảnh</label> <br>
+                        <input type="file" id="image" name="image[]" class="upload-file" multiple> <br>
+                        <label for="manufacturers">Nhà cung cấp</label> <br>
+                        <select name="manufacturers" id="manufacturers">
+                        </select> <br>
+                        <label for="category">Danh mục</label> <br>
+                        <select name="category" id="category">
+                        </select>
+                        <div class="btn">
+                            <button>Thêm sản phẩm</button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <script src="../../components/sidebar.js"></script>
+        <script src="./main.js"></script>
+</body>
+
+</html>

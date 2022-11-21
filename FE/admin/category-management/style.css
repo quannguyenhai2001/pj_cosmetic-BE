@@ -1,0 +1,74 @@
+
+.content-title {
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 34px;
+    text-align: center;
+}
+.content-header{
+    margin-top: 20px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-icon {
+    font-size: 2.5rem;
+    color: black;
+}
+
+
+.content-body {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+
+.content-table {
+    width: 100%;
+    text-align: center;
+}
+
+
+.content-table, th, td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.delete-btn {
+    display: inline-block;
+    color: #027581;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.delete-btn a{
+    display: inline-block;
+    color: #027581;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.content__heading {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.content__add-product {
+    display: block;
+    text-decoration: none;
+    color: #109a80;
+    margin: 15px 30px;
+}
+.content__body {
+    margin-top: 20px;
+}

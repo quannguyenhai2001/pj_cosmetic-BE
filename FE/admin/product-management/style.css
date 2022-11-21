@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+.content__body {
+    margin-top: 20px;
+}
+
+.content__heading {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.content__add-product {
+    display: block;
+    text-decoration: none;
+    color: #109a80;
+    margin: 15px 30px;
+}
+
+.content__table {
+    width: 100%;
+    text-align: center;
+}
+
+
+.content__table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.delete-btn, .edit-btn {
+    display: inline-block;
+    color: #027581;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.edit-btn a{
+    text-decoration: none;
+    display: inline-block;
+    color: #027581;
+    margin-left: 5px;
+}

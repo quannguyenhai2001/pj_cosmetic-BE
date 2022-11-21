@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add category</title>
+    <link rel="stylesheet" href="../themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="grid__row">
+        <div class="grid__column-1-5">
+            <div class="sidebar">
+
+            </div>
+        </div>
+        <div class="content grid__column-4-5">
+            <div class="content-header">
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <img src="./avatar.jpg" alt="" class="avatar">
+                <p class="user">Admin</p>
+            </div>
+            <div class="content__body">
+                <div class="content-title">
+                    <p>Thêm danh mục</p>
+                </div>
+                <div class="form-add-category">
+                    <form id="Add-category">
+                        <label for="name">Tên</label> <br>
+                        <input type="text" id="name" name="name" placeholder="Nhập tên danh mục"> <br>
+                        <label for="">Danh mục cha</label> <br>
+                        <select name="father-name" id="father-name"></select>
+                        <div class="btn">
+                            <button>Thêm danh mục</button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <script src="../../components/sidebar.js"></script>
+        <script src="./main.js"></script>
+</body>
+
+</html>

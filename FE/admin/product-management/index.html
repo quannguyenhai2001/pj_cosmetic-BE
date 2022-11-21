@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product management</title>
+    <link rel="stylesheet" href="../components/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="grid__row">
+        <div class="grid__column-1-5">
+            <div class="sidebar">
+                
+            </div>
+        </div>
+        <div class="content grid__column-4-5">
+            <div class="content-header">
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <img src="../img/avatar.jpg" alt="" class="avatar">
+                <p class="user">Admin</p>
+            </div>
+            <div class="content__body">
+                <p class="content__heading">Quản lý sản phẩm</p>
+                <a href="./add-product/add-product.html" class="content__add-product">Thêm sản phẩm</a>
+                <table class="content__table">
+                    <tr>
+                        <th style="width: 2%;">id</th>
+                        <th style="width: 25%;">Tên</th>
+                        <th style="width: 4%;">Giá</th>
+                        <th style="width: 7%;">Khuyến mãi</th>
+                        <th style="width: 38%;">Nhà sản xuất</th>
+                        <th style="width: 7%;">Số lượng</th>
+                        <th>Chức năng</th>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <script src="../components/sidebar.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

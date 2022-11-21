@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill management</title>
+    <link rel="stylesheet" href="../components/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="grid__row">
+        <div class="grid__column-1-5">
+            <div class="sidebar">
+                
+            </div>
+        </div>
+        <div class="content grid__column-4-5">
+            <div class="content-header">
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <img src="../img/avatar.jpg" alt="" class="avatar">
+                <p class="user">Admin</p>
+            </div>
+            <div class="content__body">
+                <p class="content__heading">Quản lý hóa đơn</p>
+                <a href="./add-category/add-category.html" class="content__add-product"></a>
+                <table class="content-table">
+                    <tr>
+                        <th style="width: 3%;">id</th>
+                        <th style="width: 21%;">Tên người nhận</th>
+                        <th style="width: 7%;">SĐT</th>
+                        <th style="width: 15%;">Ngày giao hàng</th>
+                        <th style="width: 12%;">Tổng</th>
+                        <th style="width: 12%;">Địa chỉ giao hàng</th>
+                        <th style="width: 8%;">Phương thức thanh toán</th>
+                        <th style="width: 29%;">Ghi chú</th>
+                        <th>Trạng thái</th>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <script src="../components/sidebar.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
